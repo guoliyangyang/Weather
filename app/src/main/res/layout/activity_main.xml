@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hey.weather.MainActivity">
+
+    <Button
+        android:id="@+id/imag_main"
+        android:layout_width="100pt"
+        android:layout_height="100pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:textAlignment="center"
+        android:text="CLICK ME"/>
+
+    <EditText
+        android:id="@+id/user_main"
+        android:layout_width="100pt"
+        android:layout_height="20pt"
+        android:layout_below="@+id/imag_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"/>
+
+    <EditText
+        android:id="@+id/password_main"
+        android:layout_width="100pt"
+        android:layout_height="20pt"
+        android:layout_below="@+id/user_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_main"
+        android:layout_width="70pt"
+        android:layout_height="20pt"
+        android:layout_below="@+id/password_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:text="login"/>
+
+    <Button
+        android:id="@+id/register_main"
+        android:layout_width="70pt"
+        android:layout_height="20pt"
+        android:layout_below="@+id/login_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dip"
+        android:text="register"/>
+
+</RelativeLayout>
